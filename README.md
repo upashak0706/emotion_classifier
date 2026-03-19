@@ -18,6 +18,7 @@ Removal of numbers and non-ASCII characters (emojis).
 Stopword removal using NLTK.
 Model Performance
 I experimented with multiple vectorization techniques and algorithms to find the best fit:
+
 Model                      Vectorizer            Accuracy
 Multinomial Naive Bayes  Bag of Words (BoW)        76.8%
 Multinomial Naive Bayes  TF-IDF                    66.1%
